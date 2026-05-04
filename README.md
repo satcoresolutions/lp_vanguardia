@@ -1,4 +1,4 @@
-![SatCore Solutions](/images/logos/01_Logo_Principal.png)
+![SatCore Solutions](public/images/logos/01_Logo_Principal.png)
 
 # 🚀 Landing Page Vanguardia
 
@@ -180,4 +180,4 @@ Desarrollo de software y automatización de sistemas
 
 ---
 
-![SatCore Solutions](/images/logos/Logo_Principal_positivo.jpg)
+![SatCore Solutions](public/images/logos/Logo_Principal_positivo.jpg)
