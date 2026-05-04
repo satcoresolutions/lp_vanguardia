@@ -1,4 +1,4 @@
-![SatCore Solutions](./assets/logo.png)
+![SatCore Solutions](/images/logos/01_Logo_Principal.png)
 
 # 🚀 Landing Page Vanguardia
 
@@ -12,7 +12,7 @@ Proyecto de Landing Page moderna desarrollado con Next.js, TypeScript y Tailwind
 
 ### SatCore Solutions
 
-| Medio | Información | Uso |
+| Medio | Información | 
 |------|------------|-----|
 | 📧 Correo | satcoresolutions@gmail.com | 
 | 📱 WhatsApp | +57 302 201 60 72 | 
@@ -20,7 +20,7 @@ Proyecto de Landing Page moderna desarrollado con Next.js, TypeScript y Tailwind
 | 📸 Instagram | https://www.instagram.com/satcore_solutions | 
 | 🎥 YouTube | @SatCore_Solutions | 
 | 💻 GitHub | https://github.com/satcoresolutions |
-| 📘 Facebook | Página SatCore Solutions | 
+| 📘 Facebook | Página: SatCore Solutions | 
 
 
 ---
@@ -180,4 +180,4 @@ Desarrollo de software y automatización de sistemas
 
 ---
 
-![SatCore Solutions](./assets/logo.png)
+![SatCore Solutions](/images/logos/Logo_Principal_positivo.jpg)
