@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Imagen de fondo */}
       <Image
         src="/images/hero/hero-main.png"
-        alt="Vanguardia Seasonal Collection"
+        alt="Colección de temporada Vanguardia"
         fill
         priority
         className="object-cover"
@@ -23,20 +23,19 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-4 max-w-2xl">
 
         <h1>
-          Seasonal Outlet
+          Outlet de Temporada
         </h1>
 
         <p className="mt-6 mb-10 text-lg md:text-xl opacity-90 max-w-xl mx-auto leading-relaxed">
-          Discover timeless pieces crafted with precision and designed for modern elegance.
+          Descubre piezas atemporales creadas con precisión y diseñadas para una elegancia moderna.
         </p>
 
         <Link href="/#collection">
           <Button variant="primary">
-            Shop Collection
+            Ver Colección
           </Button>
         </Link>
       </div>
-
 
     </section>
   );
