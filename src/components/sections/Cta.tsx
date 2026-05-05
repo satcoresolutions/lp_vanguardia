@@ -26,17 +26,17 @@ const Cta = () => {
 
                         {/* Label */}
                         <span className="text-[10px] uppercase tracking-[0.2em] opacity-80">
-                            Vanguardia Experience
+                            Experiencia Vanguardia
                         </span>
 
                         {/* Title */}
                         <h2 className="mt-4 max-w-2xl">
-                            Discover your next signature piece
+                            Descubre tu próxima pieza icónica
                         </h2>
 
                         {/* Description */}
                         <p className="mt-6 max-w-xl text-sm opacity-80">
-                            Explore our curated collection of timeless fashion designed for modern elegance and lasting impact.
+                            Explora nuestra colección curada de moda atemporal, diseñada para una elegancia moderna y un impacto duradero.
                         </p>
 
                         {/* Buttons */}
@@ -44,7 +44,7 @@ const Cta = () => {
 
                             <Link href="/#collection">
                                 <Button variant="primary">
-                                    Shop Collection
+                                    Ver Colección
                                 </Button>
                             </Link>
 
@@ -54,7 +54,7 @@ const Cta = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Button variant="secondary">
-                                    Contact Us
+                                    Contáctanos
                                 </Button>
                             </a>
 
