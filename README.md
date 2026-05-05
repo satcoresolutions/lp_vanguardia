@@ -12,16 +12,15 @@ Proyecto de Landing Page moderna desarrollado con Next.js, TypeScript y Tailwind
 
 ### SatCore Solutions
 
-| Medio | Información | 
-|------|------------|-----|
-| 📧 Correo | satcoresolutions@gmail.com | 
-| 📱 WhatsApp | +57 302 201 60 72 | 
-| 🌐 Sitio Web | https://satcore.solutions | 
-| 📸 Instagram | https://www.instagram.com/satcore_solutions | 
-| 🎥 YouTube | @SatCore_Solutions | 
+| Medio | Información |
+|-------|------------|
+| 📧 Correo | satcoresolutions@gmail.com |
+| 📱 WhatsApp | +57 302 201 60 72 |
+| 🌐 Sitio Web | https://satcore.solutions |
+| 📸 Instagram | https://www.instagram.com/satcore_solutions |
+| 🎥 YouTube | @SatCore_Solutions |
 | 💻 GitHub | https://github.com/satcoresolutions |
-| 📘 Facebook | Página: SatCore Solutions | 
-
+| 📘 Facebook | Página: SatCore Solutions |
 
 ---
 
