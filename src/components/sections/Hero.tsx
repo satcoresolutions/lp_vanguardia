@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import Button from "../ui/Button";
 
 const Hero = () => {
@@ -29,9 +30,11 @@ const Hero = () => {
           Discover timeless pieces crafted with precision and designed for modern elegance.
         </p>
 
-        <Button variant="primary">
-          Shop Collection
-        </Button>
+        <Link href="/#collection">
+          <Button variant="primary">
+            Shop Collection
+          </Button>
+        </Link>
       </div>
 
 

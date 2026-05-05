@@ -1,4 +1,4 @@
-![SatCore Solutions](/images/logos/01_Logo_Principal.png)
+![SatCore Solutions](public/images/logos/01_Logo_Principal.png)
 
 # 🚀 Landing Page Vanguardia
 
@@ -44,35 +44,49 @@ Está construido bajo una arquitectura limpia basada en componentes reutilizable
 
 ## 📁 Estructura del proyecto
 
-
+```bash
 lp_vanguardia/
+├── .next/
 ├── app/
 │   ├── globals.css
+│   ├── icon.ico
 │   ├── layout.tsx
 │   └── page.tsx
-│
-└── src/
-    ├── components/
-    │
-    │   ├── ui/
-    │   │   ├── Button.tsx
-    │   │   ├── Badge.tsx
-    │   │   ├── ProductCard.tsx
-    │   │   └── SectionLabel.tsx
-    │
-    │   └── sections/
-    │       ├── Navbar.tsx
-    │       ├── Hero.tsx
-    │       ├── FeaturedCollection.tsx
-    │       ├── SocialProof.tsx
-    │       ├── Testimonials.tsx
-    │       └── Footer.tsx
-    │
-    └── lib/
-        ├── constants.ts
-        └── utils.ts
-
----
+├── node_modules/
+├── public/
+│   └── images/
+│       ├── badges/
+│       ├── hero/
+│       ├── logos/
+│       ├── products/
+│       └── social/
+├── src/
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── Cta.tsx
+│   │   │   ├── Features.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Hero.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── ProductCatalog.tsx
+│   │   │   ├── SocialProof.tsx
+│   │   │   └── Testimonials.tsx
+│   │   └── ui/
+│   │       ├── Badge.tsx
+│   │       ├── Button.tsx
+│   │       ├── ProductCard.tsx
+│   │       ├── SectionLabel.tsx
+│   │       └── WhatsAppButton.tsx
+│   └── lib/
+│       └── utils.ts
+├── .env
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+``` 
 
 ## 🚀 Instalación del proyecto
 
@@ -180,4 +194,4 @@ Desarrollo de software y automatización de sistemas
 
 ---
 
-![SatCore Solutions](/images/logos/Logo_Principal_positivo.jpg)
+![SatCore Solutions](public/images/logos/Logo_Principal_positivo.jpg)

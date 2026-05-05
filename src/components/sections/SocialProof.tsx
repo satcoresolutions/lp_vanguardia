@@ -14,9 +14,9 @@ const SocialProof = () => {
   return (
     <section className="section">
       <div className="container text-center">
-        
+
         {/* Label */}
-        <SectionLabel label="As seen in" className="justify-center" />
+        <SectionLabel label="Como visto en" className="justify-center" />
 
         {/* Logos */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center mt-10 opacity-70">
@@ -27,7 +27,12 @@ const SocialProof = () => {
                 alt={logo.alt}
                 width={120}
                 height={40}
-                className="object-contain grayscale hover:grayscale-0 transition"
+                className="
+    object-contain
+    grayscale hover:grayscale-0 transition
+    w-20 sm:w-24 md:w-28 lg:w-32
+    h-auto
+  "
               />
             </div>
           ))}

@@ -4,6 +4,7 @@ import Features from "@/src/components/sections/Features";
 import SocialProof from "@/src/components/sections/SocialProof";
 import ProductCatalog from "@/src/components/sections/ProductCatalog";
 import Testimonials from "@/src/components/sections/Testimonials";
+import Cta from "@/src/components/sections/Cta";
 import Footer from "@/src/components/sections/Footer";
 
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
 
         {/* Prueba social profunda */}
         <Testimonials />
+
+        {/*CTA*/}
+        <Cta />
       </main>
 
       <Footer />

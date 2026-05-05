@@ -5,17 +5,17 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Exceptional quality and timeless design. Vanguardia has completely elevated my wardrobe.",
-    name: "Sofia Ramirez",
+      "Calidad excepcional y diseño atemporal. Vanguardia ha elevado completamente mi guardarropa.",
+    name: "Sofía Ramírez",
   },
   {
     quote:
-      "Minimalist, elegant, and incredibly well-crafted pieces. Worth every detail.",
+      "Piezas minimalistas, elegantes y con un nivel de detalle increíble. Vale cada detalle.",
     name: "Daniel Torres",
   },
   {
     quote:
-      "You can feel the attention to detail in every garment. Truly premium experience.",
+      "Se nota el cuidado en cada prenda. Una experiencia verdaderamente premium.",
     name: "Valentina Cruz",
   },
 ];
@@ -27,9 +27,9 @@ const Testimonials = () => {
 
         {/* Header */}
         <div className="mb-16">
-          <SectionLabel label="Testimonials" />
+          <SectionLabel label="Testimonios" />
           <h2 className="mt-4 text-3xl md:text-5xl font-serif leading-tight text-espresso">
-            What our clients say
+            Lo que dicen nuestros clientes
           </h2>
         </div>
 

@@ -1,12 +1,15 @@
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { label: "Navigation", href: "#" },
-  { label: "Business", href: "#" },
-  { label: "Clothes", href: "#" },
-  { label: "Products", href: "#" },
+  { label: "Inicio", href: "#" },
+  { label: "Negocio", href: "#" },
+  { label: "Ropa", href: "#" },
+  { label: "Productos", href: "#" },
   { label: "Blog", href: "#" },
-  { label: "Contact", href: "#" },
+  {
+    label: "Contacto",
+    href: "https://wa.me/573201234567?text=Hola%20quiero%20información%20sobre%20Vanguardia",
+  },
 ];
 
 const Navbar = () => {
@@ -37,20 +40,26 @@ const Navbar = () => {
         px-4 pb-4
         md:gap-8
       ">
-        {NAV_LINKS.map((link) => (
-          <Link
-            key={link.label}
-            href={link.href}
-            className="
-              caption text-espresso
-              hover:opacity-60
-              transition-opacity duration-200
-              text-xs sm:text-sm md:text-base
-            "
-          >
-            {link.label}
-          </Link>
-        ))}
+        {NAV_LINKS.map((link) => {
+          const isExternal = link.href.startsWith("http");
+
+          return (
+            <Link
+              key={link.label}
+              href={link.href}
+              target={isExternal ? "_blank" : undefined}
+              rel={isExternal ? "noopener noreferrer" : undefined}
+              className="
+                caption text-espresso
+                hover:opacity-60
+                transition-opacity duration-200
+                text-xs sm:text-sm md:text-base
+              "
+            >
+              {link.label}
+            </Link>
+          );
+        })}
       </nav>
 
     </header>
