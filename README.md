@@ -86,7 +86,7 @@ lp_vanguardia/
 ├── postcss.config.mjs
 ├── tsconfig.json
 └── README.md
----
+``` 
 
 ## 🚀 Instalación del proyecto
 
